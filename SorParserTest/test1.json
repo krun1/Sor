@@ -1,0 +1,92 @@
+﻿{
+  "result": [
+    {
+      "message": "Hello, Carter! Your order number is: #19",
+      "phoneNumber": "(996) 797-3217 x173",
+      "phoneVariation": "+90 309 868 10 23",
+      "status": "active",
+      "name": {
+        "first": "Felton",
+        "middle": "Rowan",
+        "last": "Hilll"
+      },
+      "username": "Felton-Hilll",
+      "password": "xdqEnYYuIzB6dKw",
+      "emails": [
+        "Virginia.Abbott94@example.com",
+        "Davon.Brown94@gmail.com"
+      ],
+      "location": {
+        "street": "6137 Heller Court",
+        "city": "West Michaelabury",
+        "state": "Alabama",
+        "country": "Reunion",
+        "zip": "87139",
+        "coordinates": {
+          "latitude": "-85.1132",
+          "longitude": "-113.6736"
+        }
+      },
+      "website": "https://hospitable-soy.name/",
+      "domain": "nutritious-miss.name",
+      "job": {
+        "title": "Central Intranet Specialist",
+        "descriptor": "International",
+        "area": "Security",
+        "type": "Developer",
+        "company": "Champlin and Sons"
+      },
+      "creditCard": {
+        "number": "6475-3927-2432-2635",
+        "cvv": "968",
+        "issuer": "maestro"
+      },
+      "uuid": "545bb35c-55ad-4784-acad-038d2dfbc161",
+      "objectId": "6859447907e9e52416cad079"
+    },
+    {
+      "message": "Hello, Alanis! Your order number is: #68",
+      "phoneNumber": "(820) 933-1845 x8760",
+      "phoneVariation": "+90 347 441 10 58",
+      "status": "active",
+      "name": {
+        "first": "Candido",
+        "middle": "Ellis",
+        "last": "Champlin"
+      },
+      "username": "Candido-Champlin",
+      "password": "WwqXZSvUXAz8Wkn",
+      "emails": [
+        "Precious_Feil11@gmail.com",
+        "Joanie51@example.com"
+      ],
+      "location": {
+        "street": "715 The Dell",
+        "city": "Lunaville",
+        "state": "Massachusetts",
+        "country": "Republic of Korea",
+        "zip": "23466-9239",
+        "coordinates": {
+          "latitude": "-69.8448",
+          "longitude": "49.875"
+        }
+      },
+      "website": "https://even-auction.org/",
+      "domain": "impure-visual.info",
+      "job": {
+        "title": "National Configuration Strategist",
+        "descriptor": "Legacy",
+        "area": "Communications",
+        "type": "Architect",
+        "company": "Beier Inc"
+      },
+      "creditCard": {
+        "number": "3045-114615-5436",
+        "cvv": "950",
+        "issuer": "maestro"
+      },
+      "uuid": "927d6c2f-b8f6-4d52-8112-51008f58599a",
+      "objectId": "6859447907e9e52416cad07a"
+    }
+  ]
+}

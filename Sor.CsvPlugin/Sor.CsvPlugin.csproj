@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <OutputPath>..\Sor\bin\Debug\net9.0\Plugins\</OutputPath>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Nodes\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sor.API\Sor.API.csproj" />
+    </ItemGroup>
+
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="rd /s /q ..\SorParserTest\bin\Debug\net9.0\Plugins\;&#xA;xcopy ..\Sor\bin\Debug\net9.0\Plugins\ ..\SorParserTest\bin\Debug\net9.0\Plugins\ /s/h/e/k/f/c&#xA;echo D|xcopy /y" />
+    </Target>
+
+</Project>
